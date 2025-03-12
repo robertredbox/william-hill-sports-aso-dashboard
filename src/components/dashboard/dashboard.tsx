@@ -97,7 +97,7 @@ const competitorData = [
 ];
 
 // Function to get color based on rank
-const getRankColor = (rank) => {
+const getRankColor = (rank: number): string => {
   if (rank <= 3) return "#10b981"; // Green
   if (rank <= 10) return "#3b82f6"; // Blue
   if (rank <= 20) return "#f59e0b"; // Yellow
