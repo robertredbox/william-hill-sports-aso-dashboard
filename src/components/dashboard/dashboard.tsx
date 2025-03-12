@@ -5,7 +5,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, BarChart, Bar, Cell, Legend, LineChart, Line } from 'recharts';
 import { ArrowUp, ArrowDown, Star, Download, Search, Award } from 'lucide-react';
 
-const formatDate = (dateStr) => {
+const formatDate = (dateStr: string) => {
   const date = new Date(dateStr);
   return `${date.getDate()}/${date.getMonth() + 1}`;
 };
